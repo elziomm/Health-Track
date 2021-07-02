@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="container-fluid d-block d-md-none my-bg">
+		<div class="row">
+			<div class="col-sm-12">
+				
+                <div class="row justify-content-between">
+                    <h4 class="mt-5 mb-5 ml-3">Resumo</h4>
+                    <a href="./perfil.html">
+                        <img src="../assets/img/avatar.jpg" alt="Avatar" class="avatar m-4">
+                    </a>
+                </div>
+
+                <div class="row justify-content-between">
+                    <h6 class="ml-3">Favoritos</h6>
+                    <h6 class="mr-3 text-primary">Editar</h6>
+                </div>
+
+                <div class="visor bg-light">
+                    <div class="d-flex justify-content-between bg-light">
+                        <div class="bg-light ml-3 mt-2">
+                            <em class="fas fa-walking bg-light"></em>
+                            <div class="d-flex mt-1 bg-light">
+                                <p class="font-weight-bold bg-light">10250</p>
+                                <p class="ml-2 bg-light">passos</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-light mr-4 mt-2">
+                            <em class="fas fa-bicycle bg-light"></em>
+                            <div class="d-flex mt-1 bg-light">
+                                <p class="font-weight-bold bg-light">30</p>
+                                <p class="ml-2 bg-light">minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visor-mostar-mais bg-light mt-4 mb-2">
+                    <a href="./listaPeso.html" class="d-flex justify-content-between">
+                        <p class="bg-light text-primary ml-1 mt-1">Mostrar todas as atividades</p>
+                        <em class="fas fa-angle-right bg-light mr-1 mt-1" style="height: 0;"></em>
+                    </a>
+                </div>
+
+                <div class="row">
+                    <h6 class="ml-3 mt-3">Cadastrar atividade</h6>
+                </div>
+
+                <div class="visor bg-light">
+                    <div class="d-flex justify-content-between bg-light">
+                        <div class="bg-light ml-3 mt-4">
+                            <em class="fas fa-running bg-light"></em>
+                        </div>
+
+                        <div class="bg-light mt-4">
+                            <em class="fas fa-snowboarding bg-light"></em>
+                        </div>
+
+                        <div class="bg-light mt-4">
+                            <em class="fas fa-swimmer bg-light"></em>
+                        </div>
+
+                        <div class="bg-light mt-4">
+                            <em class="fas fa-skating bg-light"></em>
+                        </div>
+
+                        <div class="bg-light mt-4">
+                            <em class="fas fa-hiking bg-light"></em>
+                        </div>
+
+                        <div class="bg-light mr-3 mt-4">
+                            <em class="fa fa-dumbbell bg-light"></em>
+                        </div>
+
+                        <div class="bg-light mr-2 mt-4">
+                            <em class="fas fa-angle-right bg-light"></em>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <h6 class="ml-3">Progresso semanal</h6>
+                </div>
+
+                <div class="d-flex justify-content-center visor-progress bg-light">
+                    <div class="progress blue">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value mt-4 ml-4 text-primary font-weight-bold">90%</div>
+                        <div class="progress-value text ml-2 text-primary">ciclismo</div>
+                    </div>
+
+                    <div class="progress yellow">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value mt-4 ml-4 text-warning font-weight-bold">37.5%</div>
+                        <div class="progress-value text ml-2 text-warning">corrida</div>
+                    </div>
+
+                    <div class="progress green">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value mt-4 ml-4 text-success font-weight-bold">45%</div>
+                        <div class="progress-value text ml-2 text-success">caminhada</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>
+    
+    <div class="alert alert-danger d-none d-md-block" role="alert">
+        <h4 class="alert-heading">Desculpe-nos!</h4>
+        <p>Este site foi construido a parir do modelo <i>Mobile First</i>, estando atualmente disponível apenas em sua versão mobile (abaixo de 768px).</p>
+        <hr>
+        <p class="mb-0">Mas em breve teremos a versão desktop, continue nos visitando. =]</p>
+    </div>
+
+    <!-- JS, Popper.js e jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

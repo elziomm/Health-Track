@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="container-fluid my-bg">
+        <div class="row justify-content-center mt-5">
+            <img src="../assets/img/avatar.png" alt="Imagem de Perfil" class="perfil">
+        </div>
+
+        <div class="content ml-3 mr-3 mt-4">
+            <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Como deseja ser chamado:</label>
+                  <input type="text" class="form-control" placeholder="Nome">
+                </div>
+            </form>
+        </div>
+
+        <form class="content ml-4 mr-4 mt-4" action="home.html">
+            <div class="form-row justify-content-between">
+                <div class="form-group col-4">
+                    <label>Peso</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-4">
+                    <label>Altura</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            
+            <div class="form-row justify-content-between">
+                <div class="form-group col-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Masculino
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          Feminino
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-4">
+                    <label>IMC</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        
+        <div class="row align-items-center fixed-bottom mb-5">
+            <div class="col mx-auto text-center">
+                <img src="../assets/img/icone.svg" alt="Logo Health Track">
+            </div>
+        </div>
+	</section>
+
+    <!-- JS, Popper.js e jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
